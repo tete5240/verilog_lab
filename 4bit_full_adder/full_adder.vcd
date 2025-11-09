@@ -1,0 +1,60 @@
+$date
+	Sun Nov  9 13:18:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module full_adder_4bit_tb $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry_out $end
+$var reg 1 # carry_in $end
+$var reg 4 $ num_a [3:0] $end
+$var reg 4 % num_b [3:0] $end
+$scope module uut $end
+$var wire 1 # carry_in $end
+$var wire 4 & num_a [3:0] $end
+$var wire 4 ' num_b [3:0] $end
+$var reg 1 " carry_out $end
+$var reg 4 ( sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 (
+b10 '
+b1 &
+b10 %
+b1 $
+0#
+0"
+b11 !
+$end
+#10
+1"
+b0 !
+b0 (
+b1 %
+b1 '
+b1111 $
+b1111 &
+#20
+1#
+b101 %
+b101 '
+b1010 $
+b1010 &
+#30
+b1111 !
+b1111 (
+b1111 %
+b1111 '
+b1111 $
+b1111 &
+#40
